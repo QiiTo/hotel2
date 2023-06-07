@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Sakae Hotel Website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sakae Hotel</title>
+    <link rel="stylesheet" href="grid.css" />
+    <link rel="stylesheet" href="style.css" />
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Playfair+Display+SC&display=swap"
+        rel="stylesheet">
+    <!--https://fonts.google.com/specimen/Michroma?preview.text=%20Hotel&preview.size=37&preview.text_type=custom&category=Serif,Sans+Serif&sort=popularity-->
+    <!--vidoe 8 5 min in nst gng-->
+
+</head>
+
+<body>
+    <header>
+        <!--       <img id="logo"logo (1) (1).webp" alt=" Hotel Logo" />-->
+        <img id="banner" src="logo (1) (1).webp" alt="Hotel Logo" />
+    </header>
+    <nav class="topnav" id="myTopnav">
+        <a href="index.html">Välkommen</a>
+        <a href="boka.html">Boka</a>
+        <a href="hitta.html">Hitta</a>
+        <a href="kontakta.html" class="active">Kontakta</a>
+        <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </nav>
+    <section>
+        <div class="container">
+            <form action="action_page.php">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="fname">Förnamn</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Ditt förnamn..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="lname">Efternamn</label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Ditt efternamn..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="tnr">Telenr</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="tnr" name="firstname" placeholder="Ditt telefonummer..">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-25">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col-75">
+                            <input type="text" id="email" name="lastname" placeholder="Din email..">
+                        </div>
+                    </div>
+                    <div class="col-25">
+                        <label for="country">Svar via:</label>
+                    </div>
+                    <div class="col-75">
+                        <select id="country" name="country">
+                            <option value="" disabled selected>Välj</option>
+                            <option value="australia">Email</option>
+                            <option value="canada">SMS</option>
+                            <option value="usa">Telefonsamtal</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="subject">Meddela:</label>
+                    </div>
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Övrig information.."
+                            style="height:195px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+    </section>
+    <aside>
+        <h1>
+            Vanliga frågor och svar
+        </h1>
+        <ul>
+            <li>
+                Sit amet nisl purus in mollis nunc sed id semper. Dignissim enim sit amet venenatis urna cursus eget.
+                Facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam. Semper feugiat nibh sed pulvinar.
+            </li>
+
+            <li>
+
+                In dictum non consectetur a erat nam at lectus. Porttitor massa id neque aliquam vestibulum morbi
+                blandit
+                cursus. Nibh nisl condimentum id venenatis a.
+            </li>
+
+            <li>
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Eu turpis egestas pretium aenean pharetra magna ac placerat.
+            </li>
+        </ul>
+    </aside>
+    <footer>
+        SAKAE HOTEL | Sapporo Ave | Nisseko Village 082-341 | +8191-434-3404
+    </footer>
+
+    <script src="script-nav.js"></script>
+
+</body>
+
+</html>
