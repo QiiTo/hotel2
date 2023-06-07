@@ -242,7 +242,7 @@ input[type=submit] {
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: rgb(170, 0, 0);
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
