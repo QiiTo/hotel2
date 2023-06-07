@@ -51,7 +51,7 @@ header img#banner {
 
 footer {
     text-align: center;
-    color: white;
+    color: #f2f2f2;
 }
 
 /*NAV*/
@@ -155,7 +155,7 @@ input[type=submit] {
 /* Style the container */
 .container {
     border-radius: 15px;
-    background-color: #f2f2f2;
+    background-color: #c0c0c0;
     padding: 20px;
     border-style: solid;
     border-color: #413f3f;
