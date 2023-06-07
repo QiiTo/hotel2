@@ -57,7 +57,7 @@ footer {
 /*NAV*/
 
 .topnav {
-    background-color: #535252;
+    background-color: #9f9f9f;
     overflow: hidden;
 }
 
@@ -296,7 +296,7 @@ input[type=submit] {
 
 .active,
 .dot:hover {
-    background-color: #717171;
+    background-color: #6d6d6d;
     background-image: url(bamboo-forest-tree-grove\ \(1\)\ \(1\).webp);
 }
 
