@@ -32,14 +32,14 @@ section {
 article {
 
     grid-area: article;
-    background-color: #6f6f6f;
+    background-color: #6d6d6d;
     ;
 }
 
 aside {
 
     grid-area: aside;
-    background-color: #6f6f6f;
+    background-color: #6d6d6d;
 }
 
 footer {
