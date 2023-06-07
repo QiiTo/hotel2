@@ -220,7 +220,7 @@ input[type=submit] {
 .slideshow-container {
     max-width: 900px;
     background-color: black;
-    max-height: 500px;
+    max-height: 400px;
     position: relative;
     margin: auto;
     border-radius: 6px;
