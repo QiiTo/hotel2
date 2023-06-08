@@ -1,6 +1,6 @@
 body {
     font-family: 'Michroma', sans-serif;
-    background-image: url(bamboo-forest-tree-grove\ \(1\)\ \(1\).webp);
+    background-image: url(bamboo-forest-tree-grove.webp);
     background-color: #D9D9D9;
 }
 
@@ -81,7 +81,7 @@ footer {
 .active {
     background-color: #aaa;
     color: rgb(0, 0, 0);
-    background-image: url(bamboo-forest-tree-grove\ \(1\)\ \(1\).webp);
+    background-image: url(bamboo-forest-tree-grove.webp);
 }
 
 .topnav .icon {
@@ -291,7 +291,7 @@ input[type=submit] {
 .active,
 .dot:hover {
     background-color: #6d6d6d;
-    background-image: url(bamboo-forest-tree-grove\ \(1\)\ \(1\).webp);
+    background-image: url(bamboo-forest-tree-grove.webp);
 }
 
 /* Fading animation */
